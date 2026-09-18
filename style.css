@@ -1,0 +1,86 @@
+/*
+Theme Name: nia's portfolio
+Theme URI: https://wordpress.org/themes/portfolio/
+Author: the WordPress team
+Author URI: https://starcolder.com
+Description: A simple, clean portfolio theme.
+Requires at least: 6.7
+Tested up to: 7.0
+Requires PHP: 7.2
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: portfolio
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, accessibility-ready, blog, portfolio, news
+*/
+
+/*
+ * IMPORTANT: This file is only served on the frontend when `SCRIPT_DEBUG` is enabled;
+ * in most instances, the `style.min.css` file will be served. It is not recommended that you
+ * use the Theme File Editor to modify this stylesheet. Instead, add the necessary style
+ * overrides via "Additional CSS" in the Site Editor.
+ */
+
+/*
+ * Link styles
+ * https://github.com/WordPress/gutenberg/issues/42319
+ */
+
+
+
+.my-menu a {
+    color: var(--border) !important;
+    text-decoration: none !important;
+}
+
+.my-menu ul {
+    list-style-type: none !important;
+}
+
+.my-menu li:hover {
+    box-sizing: border-box;
+    border-radius: 25px;
+    background-color: var(--background-2);
+}
+
+.my-menu li a {
+    display: block;
+    padding: 8px 15px;
+}
+
+.dialog-window {
+    height: 250px;
+    width: 50%;
+    margin-top: 150px;
+}
+
+.contact-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #6c757d;
+}
+
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #6c757d;
+}
+
+.wpcf7-response-output {
+    font-size: 14px;
+}
+
+.contact-main-page input,
+.contact-main-page textarea,
+.contact-main-page label {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.wpcf7-form-control.wpcf7-submit.has-spinner {
+    width: auto;
+}
+
+

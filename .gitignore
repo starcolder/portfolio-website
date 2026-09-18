@@ -1,0 +1,17 @@
+# WordPress
+wp-config.php
+wp-content/uploads/
+
+# Cache / logs
+wp-content/cache/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Archives / backups
+*.zip
+*.tar
+*.gz
+*.daf
